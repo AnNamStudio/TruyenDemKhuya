@@ -7,9 +7,4 @@ Nếu bạn đã từng một lần nghe chương trình "Đọc truyện đêm 
 Ứng dụng "Đọc truyện đêm khuya" là tập hợp các truyện ngắn với hy vọng sẽ mang đến cho bạn những giây phút nhẹ nhàng, bình yên giữa cuộc sống ồn ào, tấp nập và bề bộn này!
 Hãy lắng nghe và cảm nhận ...
 
-#### Ứng dụng
- <div class="downloadButtonsContainer" align="center">
-      <a class="appStoreLink" href="https://apps.apple.com/app/id895294690" target="_blank"><img class="appStore" src="{{ '/assets/img/appstore.png' | prepend: site.baseurl }}"></a>
-  </div>
-
 [applink]: https://apps.apple.com/app/id895294690
