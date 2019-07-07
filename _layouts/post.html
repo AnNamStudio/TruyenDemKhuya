@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<div class="post">
+  {% if page.image %}
+    <div class="featuredImage">
+        <img src="{{ '/assets/img/' | prepend: site.baseurl | append: page.image }}" alt="" />
+    </div>
+  {% endif %}
+  <h1 class="postTitle">{{ page.title }}</h1>
+  <p class="meta">{{ page.date | date: '%B %d, %Y' }}</p>
+ 
+  <div align="center">
+    <audio controls preload="auto" style="width: 75%;">
+      <source src="{{ '/assets/audio/' | prepend: site.baseurl | append: page.audio }}" type="audio/mp3">
+    </audio>
+  </div>
+  
+
+  {{ content }}
+
+
+  <div class="downloadButtonsContainer" align="center">
+      <h5>Tải ứng dụng trên AppStore để nghe được nhiều truyện hơn</h5>
+      <a class="appStoreLink" href="https://apps.apple.com/app/id895294690" target="_blank"><img class="appStore" src={{ "/assets/img/appstore.png" }}></a>
+  </div>
+
+  <!-- POST NAVIGATION -->
+  <!-- <div class="postNav clearfix">
+    {% if page.previous.url %} 
+      <a class="prev{% if page.previous.image %} image{% endif %}" href="{{ page.previous.url | prepend: site.baseurl }}"><span>&laquo;&nbsp;{{ page.previous.title }}</span>
+      {% if page.previous.image %} 
+        <img src="{{ '/assets/img/' | prepend: site.baseurl | append: page.previous.image }}" alt="">
+      {% endif %}
+    </a>
+    {% endif %}  
+    {% if page.next.url %}  
+      <a class="next{% if page.next.image %} image{% endif %}" href="{{ page.next.url | prepend: site.baseurl }}"><span>{{ page.next.title }}&nbsp;&raquo;</span>
+      {% if page.next.image %} 
+        <img src="{{ '/assets/img/' | prepend: site.baseurl | append: page.next.image }}" alt="">
+      {% endif %} 
+      </a>
+    {% endif %} 
+  </div> -->
+</div>

@@ -1,0 +1,30 @@
+title: Truyện đêm khuya
+description: 
+
+url: 
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
+
+navigation:
+  - title: Trang chủ
+    url: /index.html
+  - title: Giới thiệu
+    url: /about
+  - title: Liên hệ
+    url: /contact
+
+email: annamstudio.vn@gmail.com
+
+social:
+  github:
+  twitter:
+  facebook:
+  email: annamstudio.vn@gmail.com
+
+google_analytics: ""
