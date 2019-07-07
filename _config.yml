@@ -2,7 +2,7 @@ title: Truyện đêm khuya
 description: 
 
 url: 
-baseurl: "https://annamstudio.github.io/TruyenDemKhuya/"
+baseurl: "https://annamstudio.github.io/TruyenDemKhuya"
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
@@ -16,8 +16,8 @@ navigation:
     url: /index.html
   - title: Giới thiệu
     url: /about
-  - title: Liên hệ
-    url: /contact
+  # - title: Liên hệ
+  #   url: /contact
 
 email: annamstudio.vn@gmail.com
 
