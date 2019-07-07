@@ -2,7 +2,7 @@ title: Truyện đêm khuya
 description: 
 
 url: 
-baseurl: ""
+baseurl: "https://annamstudio.github.io/TruyenDemKhuya/"
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
