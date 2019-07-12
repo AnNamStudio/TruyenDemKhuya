@@ -3,6 +3,7 @@ description:
 
 url: 
 baseurl: "https://annamstudio.github.io/TruyenDemKhuya"
+# baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
