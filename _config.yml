@@ -2,7 +2,7 @@ title: Truyện đêm khuya
 description: 
 
 url: 
-baseurl: "https://annamstudio.github.io/TruyenDemKhuya"
+# baseurl: "https://annamstudio.github.io/TruyenDemKhuya"
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
@@ -10,6 +10,16 @@ markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate]
 paginate: 5
+
+
+colors:
+  primary: "#ff4646"
+  secondary: "#384452"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+# {{ site.colors.primary }}
 
 navigation:
   - title: Trang chủ
