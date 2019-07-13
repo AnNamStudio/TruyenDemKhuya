@@ -2,7 +2,7 @@
 layout: post
 title:  "Người đàn bà hát ru"
 date:   2014-08-08
-audio: 2014_08_08.mp3
+audio: https://gitlab.com/quockhai/truyendemkhuya-page/raw/master/audio/2014_08_08.mp3 #2014_08_08.mp3
 author: Lê Thanh Kỳ
 reader: Minh Nguyệt
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  "Nhà tiên tri đã viết như thế!"
 date:   2014-08-06
-audio: 2014_08_06.mp3
+audio: https://gitlab.com/quockhai/truyendemkhuya-page/raw/master/audio/2012_01_01.mp3 #2014_08_06.mp3
 author: Igor Frolov
 reader: ...
 ---
