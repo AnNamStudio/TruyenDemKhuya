@@ -1,13 +1,20 @@
 ---
 layout: page
-title: About
+title: TRUYỆN ĐÊM KHUYA
 permalink: /about/
 ---
 
-Sleek is a modern Jekyll theme focused on speed performance & SEO best practices. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/) or simply read the guide on how to [get started](/getting-started)
+#### Giới thiệu
+Đêm... là khi con người ta trở về với chính mình, để theo đuổi những suy nghĩ riêng về tình yêu, về cuộc sống ...
+Nếu bạn đã từng một lần nghe chương trình "Đọc truyện đêm khuya" của Đài tiếng nói Việt Nam thì chắc hẳn bạn đã bắt gặp những dòng suy nghĩ miên man như vậy ...
 
-You can find the source code for the Jekyll new theme at:
-[sleek](https://github.com/janczizikow/sleek)
+Ứng dụng "Đọc truyện đêm khuya" là tập hợp các truyện ngắn với hy vọng sẽ mang đến cho bạn những giây phút nhẹ nhàng, bình yên giữa cuộc sống ồn ào, tấp nập và bề bộn này!
+Hãy lắng nghe và cảm nhận ...
 
-You can find the source code for Jekyll at
-[jekyll](https://github.com/jekyll/jekyll)
+#### Ứng dụng
+ <div class="downloadButtonsContainer" align="center">
+      <a class="appStoreLink" href="https://apps.apple.com/app/id895294690" target="_blank"><img class="appStore" src="{{ '/assets/img/appstore.png' | prepend: site.baseurl }}"></a>
+  </div>
+
+[applink]: https://apps.apple.com/app/id895294690
+
