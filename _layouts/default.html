@@ -1,24 +1,55 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" <![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9" <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
 
-{% include head.html %}
+  {% include head.html %}
 
-<body>
+  <body class="site">
 
-   {% include header.html %}
+    {% if site.google_tag_manager %}
 
-   <div class="content">
-      <div class="container">
-         {{ content }}
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
+    {% endif %}
+
+    <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.hero_img }}">
+      <div class="hero__wrap">
+        <h1 class="hero__title">{{ site.title | escape }}</h1>
+        <p class="hero__meta">{{ site.tagline }}</p>
       </div>
-   </div><!-- end .content -->
+    </div>
 
-   {% include footer.html %}
-   {% include scripts.html %}
+    <main class="site__content">
 
-</body>
+      
+
+      <section class="blog">
+        <div class="downloadButtonsContainer" align="center">
+            <p></p>
+            <h1>Tải ứng dụng trên AppStore</h1>
+            <a class="appStoreLink" href="https://apps.apple.com/app/id895294690" target="_blank"><img class="appStore" src={{ "/assets/img/appstore.png" }}></a>
+        </div>
+
+        <div class="container">
+          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
+
+            {% for post in site.posts %}
+              {% include card.html %}
+            {% endfor %}
+
+            <!-- {% include pagination.html %} -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    {% include footer.html %}
+
+  </body>
 
 </html>

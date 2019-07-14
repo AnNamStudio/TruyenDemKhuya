@@ -1,20 +1,19 @@
 ---
-layout: default
-title: Contact Long Haul
+layout: page
+title: Contact
+permalink: /contact/
 ---
 
-<div id="contact">
-  <h1 class="pageTitle">Liên hệ</h1>
-  <div class="contactContent">
-    <p class="intro" style="text-align: justify;">Chúng tôi mong muốn được lắng nghe những ý kiến đóng góp của bạn, hoặc nếu bạn có bất kỳ câu hỏi nào, vui lòng điền theo mẫu. Chúng tôi sẽ liên lạc với bạn ngay khi có thể!</p>
-  </div>
-  <form action="http://formspree.io/{{site.email}}" method="POST">
-    <label for="name">Họ tên</label>
-    <input type="text" id="name" name="dem-name" class="full-width"><br>
-    <label for="email">Email</label>
-    <input type="email" id="email" name="dem-email" class="full-width"><br>
-    <label for="message">Nội dung</label>
-    <textarea name="dem-message" id="message" cols="30" rows="10" class="full-width"></textarea><br>
-    <input type="submit" value="Gửi" class="button">
-  </form>
-</div>
+Jekyll is a great tool to create static sites, but there’s no backend to send your data to.
+
+However, you can use free SaaS as a backend for forms, such as [Formspree](https://formspree.io/) to handle form submissions. Sleek has a configured form using formspree ready for you. All you have to do is change the email in `.config.yml`.
+
+Check the form below to see it in action!
+
+### Example Formspree contact form with validation and reCaptcha
+
+Fill in the form or [email me](mailto:{{site.email}}) to discuss your next project.
+
+{% include form.html %}
+
+{% include modal.html %}
