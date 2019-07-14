@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Thầy ơi!"
+featured-img: emile-perron-190221
+date:   2014-08-02
+audio: https://gitlab.com/quockhai/truyendemkhuya-page/raw/master/audio/2014_08_02.mp3 #2014_08_06.mp3
+author: Đinh Ngọc Lâm
+reader: Việt Hùng
+---
+
+*Tác giả: {{ page.author }} - Giọng đọc: {{ page.reader }}*
